@@ -1,7 +1,9 @@
+import { Header } from "@/components/homepage/organisms/header";
+
 export default function Home() {
   return (
     <main>
-      <h1 className="text-fsgold">Findex Solutions</h1>
+      <Header />
     </main>
   );
 }
