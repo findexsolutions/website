@@ -5,11 +5,15 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --brand: #01274E;
+  --accent: #D1AE88;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-brand: var(--brand);
+  --color-accent: var(--accent);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-exo2: var(--font-exo2);
@@ -22,6 +26,8 @@
 .dark {
   --background: #01274E;
   --foreground: #F1F1F1;
+  --brand: #D1AE88;
+  --accent: #01274E;
 }
 
 body {

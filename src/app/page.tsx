@@ -1,9 +1,9 @@
-import { Header } from "@/components/homepage/organisms/header";
+import Header from "@/components/sections/header/Header";
 
 export default function Home() {
   return (
     <main>
-      <Header />
+        <Header />
     </main>
   );
 }
