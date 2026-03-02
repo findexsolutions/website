@@ -21,7 +21,8 @@ const exo2 = Exo_2({
 
 export const metadata: Metadata = {
   title: "Findex Solutions",
-  description: "Findex Solutions is a software development company.",
+  description:
+    "Transformamos ideias em soluções digitais. Desenvolvimento de software, aplicativos e sistemas sob medida para o seu negócio.",
 };
 
 export default function RootLayout({
@@ -34,7 +35,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${exo2.variable} antialiased`}
       >
-        <ThemeProvider attribute="class" defaultTheme="light" disableTransitionOnChange>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="light"
+          disableTransitionOnChange
+        >
           {children}
         </ThemeProvider>
         <Toaster richColors />
