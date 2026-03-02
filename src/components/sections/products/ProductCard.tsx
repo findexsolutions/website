@@ -9,7 +9,7 @@ interface ProductCardProps {
 export default function ProductCard({ product }: ProductCardProps) {
   return (
     <div>
-      <Card className="group relative aspect-square overflow-hidden border-brand/15 bg-card cursor-pointer">
+      <Card className="group relative aspect-video overflow-hidden border-brand/15 bg-card cursor-pointer sm:aspect-square">
         <Image
           src="/findexblue.png"
           alt=""

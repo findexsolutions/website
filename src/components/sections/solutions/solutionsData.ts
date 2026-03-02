@@ -2,10 +2,10 @@ import type { LucideIcon } from "lucide-react";
 import {
   Bot,
   BrainCircuit,
-  CodeXml,
   ShoppingCart,
   LayoutTemplate,
   Ellipsis,
+  Webhook,
 } from "lucide-react";
 
 export interface Solution {
@@ -19,19 +19,13 @@ export const solutions: Solution[] = [
     icon: Bot,
     title: "Bots Inteligentes",
     description:
-      "Bots independentes para envio automatizado de e-mails e mensagens no WhatsApp, otimizando sua comunicação.",
+      "Criamos bots para impulsionar o seu negócio, seja para envio de e-mails, mensagens no WhatsApp, ou até mesmo para automação de tarefas.",
   },
   {
     icon: BrainCircuit,
     title: "Integração de IA",
     description:
       "Integração de Inteligência Artificial em projetos já existentes, agregando valor e automação aos seus sistemas.",
-  },
-  {
-    icon: CodeXml,
-    title: "Desenvolvimento com IA",
-    description:
-      "Desenvolvimento de software com IA integrada desde o início, criando soluções inteligentes do zero.",
   },
   {
     icon: ShoppingCart,
@@ -44,6 +38,12 @@ export const solutions: Solution[] = [
     title: "Portfólios Profissionais",
     description:
       "Portfólios modernos e responsivos para profissionais e empresas que querem se destacar no digital.",
+  },
+  {
+    icon: Webhook,
+    title: "APIs & Integrações",
+    description:
+      "Conectamos seus sistemas via APIs, webhooks e microsserviços, eliminando retrabalho e centralizando dados.",
   },
   {
     icon: Ellipsis,
