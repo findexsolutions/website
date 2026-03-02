@@ -3,6 +3,7 @@ import Solutions from "@/components/sections/solutions/Solutions";
 import Products from "@/components/sections/products/Products";
 import Contact from "@/components/sections/contact/Contact";
 import Maps from "@/components/sections/contact/Maps";
+import Footer from "@/components/sections/footer/Footer";
 
 export default function Home() {
   return (
@@ -15,10 +16,10 @@ export default function Home() {
             <Contact />
           </div>
           <div className="mx-auto mt-8 max-w-2xl">
-            <Maps />
+            {/* <Maps /> */}
           </div>
-          <hr className="mt-10"/>
         </section>
+        <Footer />
     </main>
   );
 }

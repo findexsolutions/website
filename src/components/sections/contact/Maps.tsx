@@ -6,7 +6,7 @@ export default function Maps() {
   return (
     <div className="flex justify-center">
       {/* Agende uma Reunião */}
-      <Card className="border-brand/15 bg-card py-3 gap-2 w-full max-w-sm">
+      {/* <Card className="border-brand/15 bg-card py-3 gap-2 w-full max-w-sm">
         <CardHeader className="px-4">
           <div className="flex items-center gap-2">
             <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-md bg-brand/10 text-brand">
@@ -32,7 +32,7 @@ export default function Maps() {
             </a>
           </Button>
         </CardContent>
-      </Card>
+      </Card> */}
 
 {/*       
       <Card className="border-brand/15 bg-card py-3 gap-2">
