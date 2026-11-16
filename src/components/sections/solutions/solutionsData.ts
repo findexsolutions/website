@@ -19,7 +19,7 @@ export const solutions: Solution[] = [
     icon: Bot,
     title: "Bots Inteligentes",
     description:
-      "Criamos bots para impulsionar o seu negócio, seja para envio de e-mails, mensagens no WhatsApp, ou até mesmo para automação de tarefas.",
+      "Criamos bots para impulsionar o seu negócio, seja de scrapping em plataforma de terceiros ou para realizar quaisquer ações.",
   },
   {
     icon: BrainCircuit,

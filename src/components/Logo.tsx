@@ -13,14 +13,14 @@ export default function Logo({ size = 100, showTitle = false }: LogoProps) {
         style={{ width: size, height: size }}
       >
         <Image
-          src="/findexblue.png"
+          src="/logo-light.png"
           alt="Findex Solutions"
           fill
           sizes={`(max-width: 640px) 60vw, ${size}px`}
           className="block object-contain dark:hidden"
         />
         <Image
-          src="/findexgolden.png"
+          src="/logo-dark.png"
           alt="Findex Solutions"
           fill
           sizes={`(max-width: 640px) 60vw, ${size}px`}

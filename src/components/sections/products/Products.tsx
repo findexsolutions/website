@@ -18,7 +18,6 @@ export default function Products() {
           <ProductCard key={index} product={product} />
         ))}
       </div>
-      <hr className="mt-10"/>
     </section>
   );
 }

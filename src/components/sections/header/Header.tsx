@@ -1,6 +1,6 @@
 import Logo from "@/components/Logo";
 import ThemeToggle from "@/components/ThemeToggle";
-import { FaWhatsapp, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaWhatsapp, FaEnvelope } from "react-icons/fa";
 
 export default function Header() {
   return (
@@ -17,28 +17,20 @@ export default function Header() {
       </p>
       <div className="mt-4 flex items-center justify-center gap-4">
         <a
-          href="https://wa.me/"
+          href="https://wa.me/5561936182922"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="WhatsApp"
           className="text-brand transition-opacity hover:opacity-70"
         >
           <FaWhatsapp size={24} />
         </a>
         <a
-          href="https://instagram.com/"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="mailto:admin@findexsolutions.com"
+          aria-label="E-mail"
           className="text-brand transition-opacity hover:opacity-70"
         >
-          <FaInstagram size={24} />
-        </a>
-        <a
-          href="https://linkedin.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-brand transition-opacity hover:opacity-70"
-        >
-          <FaLinkedin size={24} />
+          <FaEnvelope size={24} />
         </a>
       </div>
       <hr  className="mt-10"/>
